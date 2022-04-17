@@ -1,0 +1,200 @@
+.header {
+  height: 35px;
+  background-color: rgb(40, 41, 43);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  top: 0;
+  right: 0;
+  left: 0;
+
+  border-bottom: 1px solid rgb(62, 62, 62);
+  position: fixed;
+  z-index: 1000;
+}
+
+.right-section {
+  width: 300px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  font-size: 12px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  max-width: 370px;
+
+  font-size: 10px;
+}
+
+.left-section {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  width: 90px;
+  padding: 6px 30px 6px 18px;
+  margin-right: 80px;
+  border-radius: 40px;
+  background-color: rgb(70, 69, 69);
+  border: none;
+  color: white;
+  font-size: 10px;
+  font-family: Roboto, Arial;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.search-bar::placeholder {
+  color: lightgray;
+  font-size: 10px;
+  color: rgb(165, 161, 161);
+  font-family: Roboto, Arial;
+}
+
+.magnifying-glass-icon {
+  position: relative;
+}
+
+.magnifying-glass-icon .fa-magnifying-glass {
+  position: absolute;
+  bottom: 10.5px;
+  left: 5px;
+  color: lightgray;
+  font-size: 9px;
+}
+
+.facebook-logo {
+  background-color: white;
+  height: 23px;
+  width: 23px;
+  margin-left: 10px;
+  margin-right: 5px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.watch .button {
+  position: relative;
+}
+
+
+.fa-play {
+  position: absolute;
+  right: 37px;
+  top: 15px;
+  color: white;
+}
+
+.fa-store,
+.fa-gamepad,
+.fa-circle-user,
+.fa-facebook-messenger,
+.fa-bars,
+.fa-messenger,
+.fa-bell,
+.fa-caret-down,
+.fa-tv {
+  color: white;
+}
+
+.fa-house {
+  color: rgb(37, 122, 250);
+}
+
+.fa-facebook {
+  color: rgb(56, 88, 152);
+  position: absolute;
+  margin-top: 14px;
+  margin-left: -1px;
+  top: -15px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: rgb(40, 41, 43);
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 80px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.home .button {
+  border-bottom: 2px solid rgb(37, 122, 250);
+}
+
+.messenger,
+.notification {
+  margin-right: 5px;
+  background-color:rgb(56, 56, 56);
+  padding: 6px 6px 6px 6px;
+  display: flex;
+  align-items: center;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.settings {
+  margin-right: 5px;
+  background-color:rgb(56, 56, 56);
+  padding: 5px 8px 5px 8px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.grid {
+  margin-right: 5px;
+  background-color:rgb(56, 56, 56);
+  padding: 5px 7px 5px 7px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.fa-circle-user {
+  margin-right: 6px;
+}
+
+.profile {
+  padding-left: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(70, 69, 69);
+}
+
+.grid:hover,
+.messenger:hover,
+.notification:hover,
+.settings:hover {
+  background-color: rgb(80, 80, 80);
+}
+
