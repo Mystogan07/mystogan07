@@ -1,245 +1,213 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Youtube.com clone</title>
+<html lang="en">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="yt-styles/general.css">
-    <link rel="stylesheet" href="yt-styles/header.css">
-    <link rel="stylesheet" href="yt-styles/video.css">
-    <link rel="stylesheet" href="yt-styles/sidebar.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="index.css">
+</head>
 
-  <body>
-      <div class="header">
-        <div class="left-section">
-          <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-          <img class="youtube-logo" src="icons/youtube-logo.svg">
+<body>
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1>Kate <span>Dianne</span> Liz</h1></a>
         </div>
-        <div class="middle-section">
-          <input class="search-bar" type="text" placeholder="Search">
-          <button class="search-button">
-          <img class="search-icon" src="icons/search.svg">
-          <div class="tool-tip">Search</div>
-          </button>
-          <button class="voice-search-button">
-            <div class="tool-tip">Search with your voice</div>
-          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
-          </button>
-        </div>
-        <div class="right-section">
-          <div class="upload-icon-container">
-            <img class="upload-icon"  src="icons/upload.svg">
-            <div class="tool-tip">Create</div>
-          </div>
-          <div class="youtube-apps-icon-container">
-            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
-            <div class="tool-tip">Youtube apps</div>
-          </div>
-          <div class="notifications-icon-container">
-            <img class="notifications-icon" src="icons/notifications.svg">
-            <div class="notifications-count">
-              3
-            </div>
-            <div class="tool-tip">Notifications</div>
-          </div>
-          <img class="current-user-picture" src="channel-picture/my-channel.jpeg">
-        </div>
-      </div>
-
-    <div class="sidebar">
-      <div class="sidebar-link">
-        <img src="icons/side-bar/home.svg">
-        <div>Home</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/side-bar/explore.svg">
-        <div>Explore</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/side-bar/subscriptions.svg">
-        <div>Subscriptions</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/side-bar/originals.svg">
-        <div>Originals</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/side-bar/youtube-music.svg">
-        <div>Youtube Music</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/side-bar/library.svg">
-        <div>Library</div>
-      </div>
-
-    </div>
-    
-
-    <div class="video-grid">
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <a href="website.html" >
-            <img class="thumbnail" src="thumbnails/image.webp">
-          <div class="video-time">
-            14:20
-          </div>
-          </a>
-        </div>
-        <div class="video-info-grid">
-          <div class="channel-picture">
-            <image  class="profile-picture" src="channel-picture/channel-1.jpeg">
-          </div>
-          <div class="video-info">
-              <p class="video-title">
-                Talking Tech and AI with Google CEO Sundar Pichai!
-              </p>
-            <p class="video-author">
-              Marques Brownlee
-            </p>  
-        
-            <p class="video-stats">
-              3.4M views &#183; 6 months ago
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-          <div class="video-time">
-            14:20
-          </div>
-        </div>
-        <div class="video-info-grid">
-          <div class="channel-picture">
-            <image src="channel-picture/channel-2.jpeg" class="profile-picture">          
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Try Not To Laugh Challenge #9
-              </p>
-        
-              <p class="video-author">
-              Markiplier
-              </p>
-        
-              <p class="video-stats">
-              19M views &#183; 4 years ago
-              </p>
-          </div>          
-        </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
-          <div class="video-time">
-            9:13
-          </div>
-        </div>
-        <div class="video-info-grid">
-          <div class="channel-picture">
-            <image  class="profile-picture" src="channel-picture/channel-3.jpeg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Crazy Tik Toks Taken Moments Before DISASTER
-            </p>
-        
-            <p class="video-author">
-              SSSniperWolf
-            </p>  
-        
-            <p class="video-stats">
-              12M views &#183; 1 year ago
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-          <div class="video-time">
-            14:20
-          </div>
-        </div>
-        <div class="video-info-grid">
-          <div class="channel-picture">
-            <image src="channel-picture/channel-2.jpeg" class="profile-picture">          
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Try Not To Laugh Challenge #9
-              </p>
-        
-              <p class="video-author">
-              Markiplier
-              </p>
-        
-              <p class="video-stats">
-              19M views &#183; 4 years ago
-              </p>
-          </div>          
-        </div>
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
-          <div class="video-time">
-            22:09
-          </div>
-        </div>
-        <div class="video-info-grid">
-          <div class="channel-picture">
-            <image  class="profile-picture" src="channel-picture/channel-4.jpeg">
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              The Simplest Math Problem No One Can Solve - Collatz Conjecture
-            </p>
-        
-            <p class="video-author">
-              Veritasium
-            </p>  
-        
-            <p class="video-stats">
-              18M views &#183; 4 months ago
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-          <div class="video-time">
-            14:20
-          </div>
-        </div>
-        <div class="video-info-grid">
-          <div class="channel-picture">
-            <image src="channel-picture/channel-2.jpeg" class="profile-picture">          
-          </div>
-          <div class="video-info">
-            <p class="video-title">
-              Try Not To Laugh Challenge #9
-              </p>
-        
-              <p class="video-author">
-              Markiplier
-              </p>
-        
-              <p class="video-stats">
-              19M views &#183; 4 years ago
-              </p>
-          </div>          
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Project">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
         </div>
       </div>
     </div>
+  </section>
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello,<span></span></h1>
+        <h1>My name is<span></span></h1>
+        <h1>Liz<span></span></h1>
+        <a href="#contact" type="button" class="cta">Contact Me</a>
+      </div>
+    </div>
+  </section>
 
-    
-  </body>
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Services</h1>
+        <p>something something something something something something something something something something something
+          something something something something something something something something something something something
+          something something something something something something something something something something something
+          something something something something something something something something something </p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img
+              src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-settings-user-interface-icongeek26-linear-colour-icongeek26.png" />
+          </div>
+          <h2>Web Design</h2>
+          <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img
+              src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-settings-user-interface-icongeek26-linear-colour-icongeek26.png" />
+          </div>
+          <h2>Web Design</h2>
+          <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img
+              src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-settings-user-interface-icongeek26-linear-colour-icongeek26.png" />
+          </div>
+          <h2>Web Design</h2>
+          <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img
+              src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/64/000000/external-settings-user-interface-icongeek26-linear-colour-icongeek26.png" />
+          </div>
+          <h2>Web Design</h2>
+          <p>text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Coding is Love</h2>
+            <p>something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something </p>
+          </div>
+          <div class="project-img">
+            <img src="./images/1930875.webp" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Coding is Love</h2>
+            <p>something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something </p>
+          </div>
+          <div class="project-img">
+            <img src="./images/1930875.webp" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Coding is Love</h2>
+            <p>something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something </p>
+          </div>
+          <div class="project-img">
+            <img src="./images/1930875.webp" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>Coding is Love</h2>
+            <p>something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something </p>
+          </div>
+          <div class="project-img">
+            <img src="./images/1930875.webp" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>Coding is Love</h2>
+            <p>something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something </p>
+          </div>
+          <div class="project-img">
+            <img src="./images/1930875.webp" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./images/images.jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me about me </p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>Info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/phone--v1.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+63 928 7589 193</h2>
+            <h2>+63 928 7589 193</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>something@gmail.com</h2>
+            <h2>backup@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/50/000000/address.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>kahit saan malaya street pinugutan</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1>Kate <span>Dianne</span> Liz</h1></div> 
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://facebook.com/keytkeytatoooo" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://instagram.com/__lizxz/?igshid=YmMyMTA2M2Y=" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/instagram-new--v2.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png"/></a>
+        </div>
+      </div>
+      <p>Copyright &copy 2022 Liz. All rights reserved</p>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
 </html>
